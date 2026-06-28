@@ -1,0 +1,22 @@
+name: shimmering_text
+description: >-
+  Lightweight animated shimmer effects for Flutter — a shimmering Text widget
+  plus a generic Shimmer wrapper for any widget. No dependencies beyond Flutter.
+version: 0.1.0
+repository: https://github.com/akshaycm/shimmering_text
+issue_tracker: https://github.com/akshaycm/shimmering_text/issues
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+  flutter: '>=3.16.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
