@@ -9,19 +9,18 @@ via `ShaderMask`, so it looks best on text and icons.
 
 ## Install
 
-While developing locally (e.g. inside a monorepo), add a path dependency:
-
-```yaml
-dependencies:
-  shimmering_text:
-    path: packages/shimmering_text
-```
-
 Once published to pub.dev:
 
-```yaml
-dependencies:
-  shimmering_text: ^0.1.0
+```sh
+flutter pub add shimmering_text
+```
+
+To use it from a local checkout or Git (before it's published):
+
+```sh
+flutter pub add shimmering_text --path ../shimmering_text
+# or from Git:
+flutter pub add shimmering_text --git-url https://github.com/akshaynexus/shimmering_text.git
 ```
 
 ## Usage
